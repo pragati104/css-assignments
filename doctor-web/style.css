@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    margin: auto;
+    overflow: hidden;
+}
+
+nav{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 600;
+}
+
+nav ul li:first-child{
+    color: #2d8c4f;
+}
+
+/* hero section */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+
+main section{
+    width: 50%;
+}
+
+.leftsection{
+    margin: 5%;
+    position: relative;
+}
+
+.topangle{
+    width: 25px;
+}
+
+.leftsection h1{
+    font-size: 70px;
+}
+
+.leftsection p{
+    color: #808080;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.bottomangle{
+    width: 25px;
+    position:absolute ;
+    right: 25px;
+}
+
+.stethoscope{
+    position: absolute;
+    width: 90%;
+    top: -60px;
+    right: -25px;
+    z-index: -1;
+
+}
+
+.mouse{
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 30px;
+}
+
+.leftsection button{
+    color: #ffffff;
+    background-color: #2d8c4f;
+    padding: 15px 40px;
+    border:none;
+    border-radius: 40px;
+    font-size: 25px;
+}
+
+/* righ section */
+
+.greenbox, .yellowbox{
+    position: absolute;
+}
+
+
+.greenbox{
+    width: 33%;
+    bottom: 30px;
+    right: 1%;
+}
+
+.yellowbox{
+    width: 30%;
+    bottom:50px ;
+    right: 0;
+}
+
+.doctor{
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+    height: 90%;
+}
